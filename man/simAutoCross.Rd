@@ -37,7 +37,7 @@
   \item{call}{matches arguments when function called}
 
 }
-\author{Peter Baker \email{Peter.Baker@csiro.au}}
+\author{Peter Baker \email{p.baker1@uq.edu.au}}
 \seealso{\code{\link{sim.autoCross}},\code{\link{simAutoMarkers}},
   \code{\link{sim.autoMarkers}} }
 \keyword{manip}

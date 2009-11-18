@@ -16,10 +16,9 @@ Segregation ratios for autoployploids
 \tabular{ll}{
 Package: \tab polySegratio\cr
 Type: \tab Package\cr
-Version: \tab 0.2-1\cr
-Date: \tab 2008-01-08\cr
-License: \tab Copyright CSIRO and all rights reserved until further notice.\cr
-         \tab Discussions needed.\cr
+Version: \tab 0.2-2\cr
+Date: \tab 2009-11-18\cr
+License: \tab GPL-2\cr
 }
 Use \code{\link{expected.segRatio}} to compute expected segregation
 proportions for regular autopolyploids

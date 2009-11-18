@@ -1,15 +1,9 @@
 To do's
 =======
 
-19/03/2007
+18/11/2009
 
-
-Important: 
-I need to check how arguments are set in S3 classes print, plot and
-even split as there may be problems if they aren't in the right order:
-see 7 Generic functions and methods of Writing Extensions
-documentation - moved split.autoMarkers etc to divide.autoMarkers but
-not sure about print.* 21/03/2007
+Perhaps this needs to be addressed in future
 
 Not so important:
 Misclassification - more missed? so should I have more 1's that become
