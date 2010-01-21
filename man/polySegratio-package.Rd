@@ -18,7 +18,7 @@ Package: \tab polySegratio\cr
 Type: \tab Package\cr
 Version: \tab 0.2-2\cr
 Date: \tab 2009-11-18\cr
-License: \tab GPL-2\cr
+License: \tab GPL-3\cr
 }
 Use \code{\link{expected.segRatio}} to compute expected segregation
 proportions for regular autopolyploids
