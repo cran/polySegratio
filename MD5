@@ -1,6 +1,6 @@
 b30f6fa9d594717e05d486069b27c8d1 *CHANGELOG
-3e6150a0e49aa234370f567ca945782e *DESCRIPTION
-48f2babccbf90a2dd7dffd3fb9392bbc *NAMESPACE
+d76eaee7810fd0a293c806c416e2a8c7 *DESCRIPTION
+cf20396a07383e8e47769d6239e71a4e *NAMESPACE
 fb773746fc2bca3cea11d2e22ae4262a *R/addMisclass.R
 7f6e64a7f2a6f8ced76caedf4a10e4fb *R/addMissing.R
 fd4425b53d289e4ff51d9c8d1b059df3 *R/autoFill.R
@@ -19,10 +19,11 @@ b5784ea065e885f63845eb512053130c *R/segregationRatios.R
 8ecfaaf47de248ec0aa9f9d21efacc38 *R/sim.autoCross.R
 502addda0d98583b9f59bf03bb64a945 *R/sim.autoMarkers.R
 0a0a4274b7f6611c3368daa379000d95 *R/test.segRatio.R
-919705249800a6e773774b3078826700 *build/vignette.rds
+f468b9d0af017ecba7314c559d78b25c *README.md
+e171e366b54d51265f71289d776c757a *build/vignette.rds
 7244a6a70976d748d15fdc92a3a7fdbb *inst/doc/polySegratio-overview.R
 ddb743ac9e87f692656a4297c18f14a7 *inst/doc/polySegratio-overview.Rnw
-a0040afeb30ec3168e690969e7cb5d66 *inst/doc/polySegratio-overview.pdf
+c148e26756f23ce3dd083cccded72a89 *inst/doc/polySegratio-overview.pdf
 ebf964848447ce205d528452a13e5f10 *man/addMisclass.Rd
 7bd1f7492aab28dcae09f03801df9cf5 *man/addMissing.Rd
 799496e040c6eef140160ad5f5758269 *man/autoFill.Rd
@@ -31,7 +32,7 @@ b00788194fb1cf267b51dab143d21626 *man/divideAutoMarkers.Rd
 e77268b239f47b0d329ff5d78b4eec60 *man/expected.segRatio.Rd
 e7abd1c8e8374246711a338b055565ee *man/makeLabel.Rd
 39d931a583fc84402bce2b3c0e4bbf99 *man/plot.segRatio.Rd
-5f73a9586bf80eb1e40790480d249ce5 *man/polySegratio-package.Rd
+1ed4e6d802fd9d09f06b9bd1c7527fad *man/polySegratio-package.Rd
 cbfb8f2e9a14edf94447bf8eb6a832a7 *man/print.segRatio.Rd
 31092681e053055bf95ed5469f574f21 *man/print.simAutoMarkers.Rd
 032ab1ad45073e534fae73013e41cabc *man/print.testSegRatio.Rd
@@ -49,8 +50,8 @@ ddb743ac9e87f692656a4297c18f14a7 *vignettes/polySegratio-overview.Rnw
 ee88dc87f5d2cdaf7d92a64d131e6c5b *vignettes/tmp/tmp-006.eps
 0ae17f065da2559c716179999310c83c *vignettes/tmp/tmp-006.pdf
 de78d14897131771224bdc12a40a3e2b *vignettes/tmp/tmp-007.eps
-953ac3bfba24644063684aea04a81970 *vignettes/tmp/tmp-007.pdf
+cee404056f4e17e76faa00902c60a2f0 *vignettes/tmp/tmp-007.pdf
 cfd7fdea281158562849b9d7270b9265 *vignettes/tmp/tmp-009.eps
-c9a00807ffb802db377256f0b9742e3e *vignettes/tmp/tmp-009.pdf
+47fac25373a67ab8ada0c746db5a0dcc *vignettes/tmp/tmp-009.pdf
 624734a7b68ad0c7e6cb1ec2b2cf46ae *vignettes/tmp/tmp-010.eps
-3c60ebad141bc649fc72f9d162365649 *vignettes/tmp/tmp-010.pdf
+21499cf41cf621f12a7bb4bb799ec9d2 *vignettes/tmp/tmp-010.pdf
