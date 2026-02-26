@@ -22,7 +22,7 @@ autoFill(x, squash = FALSE)
   \item{x }{a vector of character strings with blank strings replaced by
   preceding non--blank strings}
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \note{ While this function may be called directly, it is more often
   called by \code{makeLabel}
 }

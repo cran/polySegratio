@@ -29,14 +29,15 @@ type.parents = c("heterogeneous", "homozygous"))
   \item{ploidy.name}{name of ploidy}
 }
 \references{
-  \itemize{
-  \item{J B S Haldane}{ (1930) Theoretical genetics of
-    autopolyploids. \emph{Journal of genetics} \bold{22} 359--372}
-  \item{Ripol, M I et al}{(1999) Statistical aspects of genetic mapping in
-    autopolyploids. \emph{Gene} \bold{235} 31--41 }
-  }
+
+  Haldane, J. B. S. (1930) Theoretical genetics of
+    autopolyploids. \emph{Journal of genetics} \bold{22} 359--372
+
+  Ripol, M I et al (1999) Statistical aspects of genetic mapping in
+    autopolyploids. \emph{Gene} \bold{235} 31--41
+
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \section{Warning }{
   While results will be returned if the ploidy level is set as an odd
   number, the formula used are only for even numbers. 

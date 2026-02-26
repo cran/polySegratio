@@ -16,8 +16,8 @@ Segregation Ratios for Autoployploids
 \tabular{ll}{
 Package: \tab polySegratio\cr
 Type: \tab Package\cr
-Version: \tab 0.2-5\cr
-Date: \tab 2018-03-22\cr
+Version: \tab 0.2-6\cr
+Date: \tab 2026-02-25\cr
 License: \tab GPL-3\cr
 }
 Use \code{\link{expected.segRatio}} to compute expected segregation
@@ -36,13 +36,15 @@ Use \code{\link{addMisclass}} and \code{\link{addMissing}} make some
 markers misclassified or missing at random
 
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \references{
   \itemize{
-  \item{J B S Haldane}{ (1930) Theoretical genetics of
-    autopolyploids. \emph{Journal of genetics} \bold{22} 359--372}
-  \item{Ripol, M I et al}{(1999) Statistical aspects of genetic mapping in
-    autopolyploids. \emph{Gene} \bold{235} 31--41 }
+    
+    Haldane, J. B. S. (1930) Theoretical genetics of
+    autopolyploids. \emph{Journal of genetics} \bold{22} 359--372
+
+    Ripol, M I et al (1999) Statistical aspects of genetic mapping in
+    autopolyploids. \emph{Gene} \bold{235} 31--41
 }
 }
 \keyword{ package }

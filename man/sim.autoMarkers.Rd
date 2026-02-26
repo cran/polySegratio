@@ -25,16 +25,16 @@ overdispersion=FALSE, shape1=50, seed)
   \item{dose.proportion}{ the proportion of markers to be simulated in
     each dosage class. Note that the exact number will be randomly
     generated from the multinomial distribution}
-  \item{n.markers}{ number of markers (Default: 500)}
-  \item{n.individuals}{ number of individuals in the cross (Default: 200)}
-  \item{seg.ratios}{ numeric vector containing segregation proportion to
+  \item{n.markers}{number of markers (Default: 500)}
+  \item{n.individuals}{number of individuals in the cross (Default: 200)}
+  \item{seg.ratios}{numeric vector containing segregation proportion to
     be supplied if you wish to override automatic calculations using
     ploidy.level}
   \item{no.dosage.classes}{only generate markers for the first
     \code{no.dosage.classes} classes (if set)}
   \item{type.parents}{heterogeneous for (1,0) or (0,1) homozygous for
     (1,1) (default: heterogeneous)}
-  \item{marker.names}{ labels for markers (Default: M.1 \dots M.n.markers)}
+  \item{marker.names}{labels for markers (Default: M.1 \dots M.n.markers)}
   \item{individual.names}{ labels for offspring (Default: \dots X.j \dots )}
   \item{overdispersion}{logical indicating overdispersion (Default:
   FALSE)}
@@ -52,10 +52,10 @@ overdispersion=FALSE, shape1=50, seed)
     rows as markers}
   \item{E.segRatio}{expected segregation proportions, list with
     components
-    \itemize{
-      \item{\code{ratio}}{segregation proportions,}
-      \item{\code{ploidy.level}}{level of ploidy 4,6,8, \dots}
-      \item{\code{ploidy.name}}{tetraploid, \dots , unknown}
+  \itemize{
+      \item \code{ratio} segregation proportions,
+      \item \code{ploidy.level} level of ploidy 4,6,8, \dots,
+      \item \code{ploidy.name} tetraploid, \dots , unknown
     }
   }
   \item{type.parents}{heterogeneous for (1,0) or (0,1) homozygous for (1,1)}
@@ -63,11 +63,11 @@ overdispersion=FALSE, shape1=50, seed)
   \item{n.markers}{number of markers (Default: 500)}
   \item{n.individuals}{number of individuals in the cross (Default: 200)}
   \item{true.doses}{list containing
-    \itemize{
-      \item{\code{dosage}}{ doses generated for each marker for simulation}
-      \item{\code{table.dosages}}{summary of no.s in each dosage}
-      \item{\code{names}}{names for each dosage such as SD (single dose),
-	DD (double dose), SDxSD etc}
+  \itemize{
+      \item \code{dosage}  doses generated for each marker for simulation,
+      \item \code{table.dosages} summary of no.s in each dosage,
+      \item \code{names} names for each dosage such as SD (single dose),
+	DD (double dose), SDxSD etc
     }
   }
   \item{seg.ratios}{object of class segRatio containing segregation ratios}
@@ -80,7 +80,7 @@ overdispersion=FALSE, shape1=50, seed)
     the beta distribution employed to generate Binomial probabilities}
   \item{call}{matches arguments when function called}
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \note{
 For  use in simulation studies, other parameters such as the true dosage
 of each marker are also returned. Also, if extra binomial variation or

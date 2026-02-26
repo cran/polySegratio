@@ -23,7 +23,7 @@ makeLabel(x, columns = c(1, 2), squash = TRUE, sep = "")
 \value{
   returns vector of marker names
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{ \code{\link{autoFill}} is used to replace blanks in first column}
 \examples{
 

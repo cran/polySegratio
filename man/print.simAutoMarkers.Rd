@@ -30,7 +30,7 @@ nrow(x$markers))), col.index = c(1:min(10, ncol(x$markers))))
 \value{
   None.
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \note{ Objects of class \code{\link{simAutoMarkers}} may be produced from
   by employing the function \code{\link{sim.autoMarkers}} and the same
   for \code{\link{sim.autoCross}} and \code{\link{divide.autoMarkers} }

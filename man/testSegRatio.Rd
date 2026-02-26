@@ -20,13 +20,15 @@
 }
 \references{
   \itemize{
-  \item{K Mather}{(1951) The measurement of linkage in heredity.
-    \emph{Methuen} London}
-  \item{Ripol, M I et al}{(1999) Statistical aspects of genetic mapping in
-    autopolyploids. \emph{Gene} \bold{235} 31--41 }
+
+    Mather, K. (1951) The measurement of linkage in heredity.
+    \emph{Methuen} London
+    
+  Ripol, M I et al (1999) Statistical aspects of genetic mapping in
+    autopolyploids. \emph{Gene} \bold{235} 31--41
 }
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{ \code{\link{segRatio}}, \code{\link{expected.segRatio}},
   \code{\link{test.segRatio}}
 }

@@ -7,4 +7,4 @@ Perform classic chi-squared tests and Ripol et al(1999) binomial confidence inte
 
 	Maintenance release: I am no longer working in polyploids.
 
-**NB** Migrated from [r-forge](http://r-forge.r-project.org/projects/polysegratio/) to manage project better
+**NB** Migrated from r-forge to manage project better

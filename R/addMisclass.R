@@ -1,6 +1,5 @@
 `addMisclass` <-
-function(x, misclass=0, bands.missed=0, parents=FALSE, parent.cols=c(1,2), seed)
-{
+function(x, misclass=0, bands.missed=0, parents=FALSE, parent.cols=c(1,2), seed) {
   
   ## Description: Adds missing data to objects of class autoMarker or
   ## autoCross as specified.
@@ -40,8 +39,8 @@ function(x, misclass=0, bands.missed=0, parents=FALSE, parent.cols=c(1,2), seed)
 
   ## allow for simAutoMarkers, simAutoCross and matrix x
 
-  if (class(x) == "simAutoMarkers" | class(x) == "simAutoCross" ) {
-    if (class(x) == "simAutoMarkers") {
+  if (inherits(x, "simAutoMarkers") | inherits(x, "simAutoCross") ) {
+    if (inherits(x, "simAutoMarkers")) {
       markers <- x$markers
     } else {
       if (parents) {
@@ -97,9 +96,9 @@ function(x, misclass=0, bands.missed=0, parents=FALSE, parent.cols=c(1,2), seed)
 
   ## set up markers for simAutoMarkers or simAutoCross if necessary
   
-  if (class(x) == "simAutoMarkers" | class(x) == "simAutoCross") {
+  if (inherits(x, "simAutoMarkers") | inherits(x, "simAutoCross")) {
     res <- x
-    if (class(x) == "simAutoMarkers") {
+    if (inherits(x, "simAutoMarkers")) {
       res$markers <- markers
       res$seg.ratios <- segregationRatios(markers)
       res$misclass.info <- misclass.info

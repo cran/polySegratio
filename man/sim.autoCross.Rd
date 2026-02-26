@@ -76,7 +76,7 @@ parent.names = c("P.1", "P.2"), seed)
   \item{call}{matches arguments when function called}
 
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \note{
 All parameters
 except the proportions of marker dosage types can be left at the

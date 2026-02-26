@@ -2,8 +2,8 @@
 function(seg.ratio, ploidy.level=4,
                           type.parents=c("heterogeneous","homozygous"),
                           method=c("chi.squared","binomial"),
-                          alpha=0.05, expected.ratio)
-{
+                          alpha=0.05, expected.ratio) {
+
   ## Function: seg.ratio.test
   ## Purpose:  chi^2 tests or binomial CIs to obtain expected marker dosage
   ##
@@ -25,19 +25,19 @@ function(seg.ratio, ploidy.level=4,
   ## expected.ratios:  expected segregation ratios under null hypotheses
   ## call:        call to seg.ratio.test
   
-  if (class(seg.ratio) != "segRatio") {
+  if (!inherits(seg.ratio, "segRatio")) {
     stop("'seg.ratio' must be of class 'segRatio'")
   }
 
   type <- match.arg(type.parents)
   method <- match.arg(method)
 
-  if( missing(expected.ratio) ){
+  if( missing(expected.ratio) ) {
     E.segRatio <- expected.segRatio(ploidy.level=ploidy.level,
                                     type.parents=type)
   } else {
     E.segRatio$ratio <- expected.ratio
-    if (length(names(E.segRatio$ratio))==0){
+    if (length(names(E.segRatio$ratio))==0) {
       names(E.segRatio$ratio) <- paste("Dose",1:length(E.segRatio$ratio),
                                        sep=".")
       cat("Warning: names of expected segregation proportions set to:\n")
@@ -86,7 +86,7 @@ function(seg.ratio, ploidy.level=4,
               E.segRatio=E.segRatio, call=match.call())
   
   oldClass(res) <- "testSegRatio"
-  
   return(res)
+
 }
 

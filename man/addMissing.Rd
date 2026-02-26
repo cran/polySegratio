@@ -36,7 +36,7 @@ addMissing(x, na.proportion = 0, parent.cols = c(1, 2), seed)
     reproduce results (I hope)}
   \item{ call}{matches arguments when function called}
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{
   \code{\link{addMisclass}} misclassifies markers at random,
   \code{\link{sim.autoMarkers}} simulate autopolyploid markers,

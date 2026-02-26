@@ -30,17 +30,15 @@ extra.cols = NULL, cols.drop = c(parent.cols, extra.cols))
   \item{p10, p01, p11}{lists for where the first, second components are
     heterozygous for parents 1, 2 and both resp. Each list contains
     \itemize{
-      \item{\code{description}}{text containing a description for
-	printing}
-      \item{\code{parent}}{label for parent}
-      \item{\code{markers}}{markers for specified parental type
-	(including parents etc)}
-      \item{\code{extras}}{extra columns subsetted (if specified)}
-      \item{\code{seg.ratios}}{segregation ratios as class \code{segRatio}}
+      \item \code{description} text containing a description for printing
+      \item \code{parent} label for parent
+      \item \code{markers} markers for specified parental type (including parents etc)
+      \item \code{extras} extra columns subsetted (if specified)
+      \item \code{seg.ratios} segregation ratios as class \code{segRatio}
     }
   }
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{ \code{\link{segRatio}}, \code{\link{sim.autoCross}}
 }
 \examples{

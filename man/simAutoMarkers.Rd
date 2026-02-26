@@ -24,10 +24,10 @@
    generated from the multinomial distribution}
  \item{true.doses}{list containing
    \itemize{
-   \item{\code{dosage}}{doses generated for each marker for simulation}
-   \item{\code{table.dosages}}{summary of no.s in each dosage}
-   \item{\code{names}}{names for each dosage such as (SD) single dose,
-     (DD) double dose, SDxSD etc}
+   \item \code{dosage} doses generated for each marker for simulation
+   \item \code{table.dosages} summary of no.s in each dosage
+   \item \code{names} names for each dosage such as (SD) single dose,
+     (DD) double dose, SDxSD etc
  }
  }
  \item{seg.ratios}{segregation proportions as class
@@ -35,7 +35,7 @@
  \item{time.generated}{date and time data set generated}
  \item{call}{ function call used to generate data set}
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{ \code{\link{expected.segRatio}},
   \code{\link{segRatio}},
   \code{\link{print.simAutoMarkers}},  

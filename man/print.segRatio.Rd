@@ -20,7 +20,7 @@
 \value{
   None.
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \note{ Objects of class \code{\link{segRatio}} may be produced from
   a \code{matrix} of markers by
   employing the function \code{\link{segregationRatios}}

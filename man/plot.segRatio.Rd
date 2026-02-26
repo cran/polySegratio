@@ -31,11 +31,11 @@ NCLASS = 100, type = c("seg.ratio", "all","no","missing"), \dots)
   \item{NCLASS}{ number of classes for histograms (Default: 100)}
   \item{type}{type of plot may be set to
     \itemize{
-      \item{\code{seg.ratio}}{Histogram of segregation proportions (Default)}
-      \item{\code{no}}{Histogram of the number of 1s}
-      \item{\code{missing}}{Histogram of the numbers of missing values
-	per marker}
-      \item{\code{all}}{Produce all plots on one page}
+      \item \code{seg.ratio} Histogram of segregation proportions (Default)
+      \item \code{no} Histogram of the number of 1s
+      \item \code{missing} Histogram of the numbers of missing values
+	per marker
+      \item \code{all} Produce all plots on one page
     }
   }
   \item{\dots}{ other parameters passed to plot function }
@@ -49,7 +49,7 @@ NCLASS = 100, type = c("seg.ratio", "all","no","missing"), \dots)
 \value{
   Used for its side-effects
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{ \code{\link{segRatio}}, \code{\link{segregationRatios}},
   \code{\link{sim.autoMarkers}}, \code{\link{sim.autoCross}} }
 \examples{

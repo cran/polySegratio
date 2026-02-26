@@ -16,7 +16,7 @@
   \item{n.individuals}{total number of individuals}
 }
 
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{\code{\link{segregationRatios}}: computing segregation
   ratios,  \code{\link{testSegRatio}}: chi squared \eqn{\chi^2} and
   tests and Binomial

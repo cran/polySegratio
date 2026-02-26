@@ -17,11 +17,11 @@ test.segRatio(seg.ratio, ploidy.level = 4,
     segregation proportions}
   \item{ploidy.level}{the number of homologous chromosomes, either as
     numeric or as a character string}
-  \item{type.parents}{ "heterogeneous" if parental markers are 0,1 or
-    "homozygous" if parental markers are both 1}
+  \item{type.parents}{\sQuote{heterogeneous} if parental markers are 0,1 or
+    \sQuote{homozygous} if parental markers are both 1}
   \item{method}{ specify which method \sQuote{chi.squared} or
-    \sQuote{binomial} }
-  \item{alpha}{ significance level for tests/CIs}
+    \sQuote{binomial}}
+  \item{alpha}{significance level for tests/CIs}
   \item{expected.ratio}{ vector of expected segregation proportions
     Default: determined by using function \code{expected.segRatio} given
     the \code{ploidy.level}
@@ -40,14 +40,15 @@ test.segRatio(seg.ratio, ploidy.level = 4,
   \item{call}{call to test.segRatio}
 }
 \references{
-  \itemize{
-  \item{K Mather}{(1951) The measurement of linkage in heredity.
-    \emph{Methuen} London}
-  \item{Ripol, M I et al}{(1999) Statistical aspects of genetic mapping in
-    autopolyploids. \emph{Gene} \bold{235} 31--41 }
-  }
+
+  Mather, K. (1951) The measurement of linkage in heredity.
+  \emph{Methuen} London
+  
+  Ripol, M I et al (1999) Statistical aspects of genetic mapping in
+    autopolyploids. \emph{Gene} \bold{235} 31--41
+
 }
-\author{Peter Baker \email{p.baker1@uq.edu.au}}
+\author{Peter Baker \email{drpetebaker@gmail.com}}
 \seealso{ \code{\link{segregationRatios}} for computing segregation
   ratios and \code{\link{segRatio}}, \code{\link{expected.segRatio}}}
 \examples{
